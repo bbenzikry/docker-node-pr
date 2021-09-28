@@ -1,4 +1,4 @@
-FROM node:14.15-stretch-slim
+FROM node:16-stretch-slim
 #
 RUN apt-get -yqq update && \
   apt-get install -yq --no-install-recommends build-essential git python\ 
